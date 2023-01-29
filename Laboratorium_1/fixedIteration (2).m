@@ -1,3 +1,5 @@
+
+%Kod för konvplot1.png fixpunktsmetoden uppgift 1.b uppdaterade den lite, men din funkar även bra.
 function x_root = fixedIteration(x_0, tau)
     MaxIterations = 25; %Tillåtna antalet iterationer 
     currentIterations = 0; % Nuvarande iteration
