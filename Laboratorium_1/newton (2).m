@@ -22,3 +22,5 @@ function [xroot] = newton(x_0, tau)
     semilogy(1:iterations, diff, 'o-'); % Plottar figuren i logaritmisk skala. 
     xroot = x_1; %Funktionen newton return värde sparas i variabeln xroot.
 end
+
+% Kod för konvplot1.png newtons metod uppgift 1.c
