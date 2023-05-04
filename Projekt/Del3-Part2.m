@@ -7,9 +7,6 @@ S0=[ 1.10 -0.19 -0.37 -0.55;
 
 k_normal=perturbation(S0);
 
-%Pawan 1!----------------------------------
-
-
 k_difference=zeros(5,1);
 for i = 1:size(S0,1)
     for j = 1:size(S0,2)
