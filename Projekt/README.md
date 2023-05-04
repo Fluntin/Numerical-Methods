@@ -1,0 +1,1 @@
+This report is about solving an inverse problem in a resistive network. Given the currents at the external nodes of the network, the objective is to determine the conductances (and subsequently, resistances) of the resistors inside the network. This problem is formulated as an over-determined nonlinear equation system.
