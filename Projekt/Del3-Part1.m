@@ -39,11 +39,6 @@ r_solution = 1 ./ k_solution;
 % S0 har felgräns 2%, räkna ut först k_solution sedan stör med felgräns,
 % [x_exp-x] ≈ approximation till felgräns
 
-
-
-
-
-
 disp(['Solution (conductances) is: ' num2str(k_solution')])
 disp(['Resistancerna är: ' num2str(r_solution')])
 disp(['Felkvadratsumma: ' num2str(felkvadrat_sum)])
